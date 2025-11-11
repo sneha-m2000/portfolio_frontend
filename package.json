@@ -1,23 +1,18 @@
 {
-  "name": "my-tailwind-app",
+  "name": "portfolio-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
     "framer-motion": "^12.23.22",
     "lucide-react": "^0.544.0",
-    "nodemailer": "^7.0.10",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "resend": "^6.4.1"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -30,24 +25,23 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
-    "nodemon": "^3.1.10",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
     "vite": "^7.2.2"
   },
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
+  "description": "Portfolio frontend built with React, TypeScript, and Vite.",
+  "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sneha-m2000/portfolio_react.git"
+    "url": "git+https://github.com/sneha-m2000/portfolio_frontend.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sneha Bijoy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sneha-m2000/portfolio_react/issues"
+    "url": "https://github.com/sneha-m2000/portfolio_frontend/issues"
   },
-  "homepage": "https://github.com/sneha-m2000/portfolio_react#readme"
+  "homepage": "https://github.com/sneha-m2000/portfolio_frontend#readme"
 }
