@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Instagram, Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import myImage from '../assets/my_image.png';
 
 export default function HeroHomepage() {
     const [titleText, setTitleText] = useState('');
@@ -15,7 +14,7 @@ export default function HeroHomepage() {
         title: 'Developer',
         description:
             'I am a passionate developer who loves building innovative solutions and exploring new technologies. I enjoy turning ideas into functional, user-friendly applications.',
-        imageSrc:myImage,
+        imageSrc: '/my_image.png',
         social: {
             instagram: '',
             linkedin: 'https://www.linkedin.com/in/developersneha/',
