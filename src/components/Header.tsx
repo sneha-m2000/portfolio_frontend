@@ -93,6 +93,7 @@
 
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react'; // for mobile icons
+import logo from '../assets/logo.png';
 
 const GlassmorphismHeader: React.FC = () => {
     const [active, setActive] = useState('home');
@@ -128,7 +129,7 @@ const GlassmorphismHeader: React.FC = () => {
                 <nav className="py-4 flex items-center justify-between">
                     {/* Logo */}
                     <div className="flex items-center gap-2">
-                        <img src="/src/assets/logo.png" alt="Profile" className="w-12 h-12 rounded-lg object-cover" />
+                        <img src={logo} alt="Profile" className="w-12 h-12 rounded-lg object-cover" />
                         <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold mt-4">Sneha</span>
                     </div>
 
